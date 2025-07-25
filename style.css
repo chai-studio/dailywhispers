@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: 'Noto Serif', serif;
-  background-color: #fdfcf7;
-  background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  background: linear-gradient(135deg, #fdfcf7 0%, #f6f1e7 50%, #faf8f3 100%);
+  background-attachment: fixed;
   color: #333;
 }
 
