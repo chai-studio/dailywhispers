@@ -22,9 +22,9 @@ An app that lets you record your daily goals (or fears) in the morning and appre
 
 ## Future Extensions  
 - AI-generated journaling prompts  
-- Cloud sync  
-- Multi-language interface  
-
+- Cloud sync & login for multi-device access  
+- Optional shared spaces (publish selected reflections)  
+- Multi-language interface 
 ---
 
 **Week 1 of CHAI Indie Creator Camp**  
