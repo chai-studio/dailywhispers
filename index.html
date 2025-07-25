@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DailyWhispers</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Noto Serif font -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🌱 DailyWhispers</h1>
+    <nav class="tabs">
+      <button id="morningTab" class="tab-button active">Morning · Start Fresh</button>
+      <button id="eveningTab" class="tab-button">Evening · Call it a Day</button>
+      <button id="historyTab" class="tab-button">History</button>
+    </nav>
+
+    <!-- Morning Section -->
+    <section id="morningSection" class="tab-section">
+      <h2>Morning Reflection</h2>
+      <label for="morningGoal">Today, I want to…</label>
+      <textarea id="morningGoal"></textarea>
+
+      <label for="morningAvoid">Today, I want to get further from…</label>
+      <textarea id="morningAvoid"></textarea>
+
+      <label for="morningNotes">Free notes</label>
+      <textarea id="morningNotes"></textarea>
+
+      <button id="saveMorning">Save Morning Reflection</button>
+      <p id="morningMessage" class="save-message"></p>
+    </section>
+
+    <!-- Evening Section -->
+    <section id="eveningSection" class="tab-section hidden">
+      <h2>Evening Reflection</h2>
+      <label for="eveningGrateful">I am grateful for…</label>
+      <textarea id="eveningGrateful"></textarea>
+
+      <label for="eveningMoments">Precious moments…</label>
+      <textarea id="eveningMoments"></textarea>
+
+      <label for="eveningNotes">Free notes</label>
+      <textarea id="eveningNotes"></textarea>
+
+      <button id="saveEvening">Save Evening Reflection</button>
+      <p id="eveningMessage" class="save-message"></p>
+    </section>
+
+    <!-- History Section -->
+    <section id="historySection" class="tab-section hidden">
+      <h2>Past Reflections</h2>
+      <div id="historyList" class="history-list">
+        <!-- Entries will appear here -->
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
 
