@@ -2,7 +2,8 @@
 body {
   margin: 0;
   font-family: 'Noto Serif', serif;
-  background: #fdfcf7 url('https://www.transparenttextures.com/patterns/asfalt-light.png'); /* subtle texture fallback */
+  background: #fdfcf7 url('https://i.ibb.co/0fzN2Z9/ink-wash-texture.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #333;
 }
 
