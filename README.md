@@ -2,8 +2,13 @@
 An app that lets you record your daily goals (or fears) in the morning and appreciations before sleep. 
 
 - **Morning Tab:** I want to… | I hate… | Free notes  
-- **Evening Tab:** Thank you… | Previous moments… | Free notes  
+- **Evening Tab:** Thank you… | Precious moments… | Free notes  
 - **History Tab:** List of past reflections with date + preview  
+
+🚀 **Live Demo:**  
+[https://chai-studio.github.io/dailywhispers/](https://chai-studio.github.io/dailywhispers/)
+
+---
 
 ## Tech Stack  
 - HTML, CSS, JavaScript (vanilla)  
